@@ -8,6 +8,6 @@ public class TestExercise1
               double decimal = console.nextDouble();
               sum += decimal;
       }
-         System.out.println(sum/5);
+      System.out.println(sum/5);
    }
 }
