@@ -1,0 +1,18 @@
+public class Exercise2 {
+   public static void main(String[] args) {
+      int arr[] = {1,2,5,4,5,6,7,8,9,10};
+      int arr_size = arr.length;
+      findDuplicates(arr, arr_size);
+   }
+   
+   public static void findDuplicates(int array[], int size) {
+      System.out.print("Duplicates are: ");
+      for (int i = 0; i < size; i++) { 
+         for (int j = i + 1; j < size; j++) {
+            if (array[i] == array[j]) { 
+               System.out.print(array[i]);
+            }
+          }
+       }
+    }
+}
